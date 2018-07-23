@@ -15,7 +15,7 @@ puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}"
 
 phrase = "IM NOT SHOUTING"
 
-lowercased_phrase = phrase # Put a . after phrase and use a String method.
+lowercased_phrase = phrase.lowercase # Put a . after phrase and use a String method.
 
 puts lowercased_phrase
 
@@ -23,7 +23,7 @@ puts lowercased_phrase
 
 big_word = "supercalifragilisticexpialidocious"
 
-letter_count = big_word # Put a . after big_word and use a String method.
+letter_count = big_word.count # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}"
 
